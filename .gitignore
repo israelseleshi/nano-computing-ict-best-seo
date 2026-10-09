@@ -32,6 +32,18 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
+
+# secrets & credentials
+*.key
+*.p12
+*.pfx
+*.crt
+*serviceAccount*.json
+*credentials*.json
+
+# scratch SEO research dumps
+/research/
 
 # vercel
 .vercel
