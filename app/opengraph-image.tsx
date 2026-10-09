@@ -1,5 +1,7 @@
 import { ImageResponse } from "next/og";
 
+export const dynamic = "force-static";
+
 export const alt =
   "Nano Computing ICT Solutions — CCTV, access control and ICT infrastructure in Addis Ababa, Ethiopia";
 export const size = { width: 1200, height: 630 };

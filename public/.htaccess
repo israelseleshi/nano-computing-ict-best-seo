@@ -1,0 +1,9 @@
+# Static export hosting rules for new.nanocomputingict.com
+
+# Use the Next.js-generated 404 page
+ErrorDocument 404 /404.html
+
+# The Open Graph image is emitted without a file extension; force its MIME type
+<Files "opengraph-image">
+  ForceType image/png
+</Files>
